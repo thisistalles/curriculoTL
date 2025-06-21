@@ -132,7 +132,8 @@ textarea {
 }
 
 #sub-contact {
-  padding-top: 30px;
+  padding-top: 150px;
+  margin-left: 320px;
 }
 
 #git {
@@ -144,158 +145,146 @@ textarea {
 }
 
 /* Celular */
-
-@media (max-width: 853px) {
-
+@media (max-width: 600px) {
   * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(0, 255, 157);
-  width: 100vh;
-  height: 300px;
-  list-style: none;
-  position: fixed;
-  padding-top: 18%;
-}
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 255, 157);
+    width: 100vh;
+    height: 300px;
+    list-style: none;
+    position: fixed;
+    padding-top: 18%;
+  }
 
-img {
-  border-radius: 50%;
-  width: 200px;
-  margin-bottom: 40px;
-}
+  img {
+    border-radius: 50%;
+    width: 180px;
+    margin-top: -80px;
+    margin-bottom: 15px;
+  }
 
-.menu-nav {
-  flex-direction: row;
-  gap: 5px;
-  list-style: none;
-  text-align: center;
-  font-size: 30px;
-  margin-left: 8px;
+  .menu-nav {
+    flex-direction: row;
+    gap: 5px;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+  }
 
-}
+  .menu-nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+  }
 
+  .about {
+    color: rgb(108, 117, 125);
+    font-size: 42px;
+    padding-left: 100px;
+    padding-top: 400px;
+    margin-left: 100px;
+    font-family: "Saira Extra Condensed", sans-serif;
+    text-align: left;
+  }
 
- 
-.menu-nav a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: 0.3s;
-}
+  .sub-about {
+    padding-top: 2px;
+    font-size: 26px;
+    max-width: 600px;
+  }
 
-.about {
-  color: rgb(108, 117, 125);
-  font-size: 42px;
-  padding-left: 100px;
-  padding-top: 400px;
-  margin-left: 100px;
-  font-family: "Saira Extra Condensed", sans-serif;
-  text-align: left;
-}
+  #parag {
+    margin-top: 20px;
+  }
 
- 
+  .cursos {
+    font-size: 26px;
+    max-width: 700px;
+    padding: 15px;
+  }
 
-.sub-about {
-  padding-top: 2px;
-  font-size: 26px;
-  max-width: 450px;
-}
+  .educa {
+    margin: 8px;
+  }
 
-#parag {
-  margin-top: 20px;
-}
+  .periodo {
+    font-size: 20px;
+  }
 
-.cursos {
-  font-size: 26px;
-  max-width: 700px;
-  padding: 15px;
-}
+  hr {
+    margin-top: 450px;
+  }
 
-.educa {
-  margin: 8px;
-}
+  .portfolio .cursos a {
+    color: rgb(52, 145, 226);
+    text-decoration: none;
+    transition: 0.3s;
+  }
 
-.periodo {
-  font-size: 20px;
-}
+  #contact {
+    padding-top: 120px;
+  }
 
-hr {
-  margin-top: 450px;
-}
+  .quad {
+    width: 450px;
+    height: 450px;
+    border: 3px rgb(146, 146, 146) solid;
+  }
 
-.portfolio .cursos a {
-  color: rgb(52, 145, 226);
-  text-decoration: none;
-  transition: 0.3s;
-}
+  #form {
+    text-align: center;
+    border: 3px rgb(144, 144, 144) outset;
+  }
 
-#contact {
-  padding-top: 120px;
-}
+  #nome {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border: 3px rgb(144, 144, 144) solid;
+  }
 
-.quad {
-  width: 450px;
-  height: 450px;
-  border: 3px rgb(146, 146, 146) solid;
-}
+  tr {
+    font-size: 20px;
+  }
 
-#form {
-  text-align: center;
-  border: 3px rgb(144, 144, 144) outset;
-}
+  td {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
 
-#nome {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 10px;
-  border: 3px rgb(144, 144, 144) solid;
-}
+  textarea {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical;
+  }
 
-tr {
-  font-size: 20px;
-}
+  #sub-contact {
+    padding-top: 120px;
+    margin-left: 200px;
+  }
 
-td {
-  padding-top: 15px;
-  padding-left: 15px;
-}
+  #git {
+    width: 100px;
+  }
 
-textarea {
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
-  max-width: 400px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical;
-}
-
-#sub-contact {
-  padding-top: 120px;
-  margin-left: 200px;
-  
-}
-
-#git {
-  width: 100px;
-}
-
-#linke {
-  width: 100px;
-}
-
-
-
-
+  #linke {
+    width: 100px;
+  }
 }
