@@ -144,8 +144,11 @@ textarea {
   width: 150px;
 }
 
+
 /* Celular */
-@media (max-width: 600px) {
+
+@media screen and (max-width: 828px) {
+
   * {
     margin: 0;
     padding: 0;
@@ -156,135 +159,111 @@ textarea {
     scroll-behavior: smooth;
   }
 
+ 
+
   .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(0, 255, 157);
-    width: 100vh;
-    height: 300px;
-    list-style: none;
-    position: fixed;
-    padding-top: 18%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 255, 157);
+  height: 50%;
+  width: 100vh;
+  list-style: none;
+  position: fixed;
+  padding-top: 18%;
+}
 
-  img {
-    border-radius: 50%;
-    width: 180px;
-    margin-top: -80px;
-    margin-bottom: 15px;
-  }
+img {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 40px; 
+  margin-top: -5%;
+  margin-right: 41%;
+}
 
-  .menu-nav {
-    flex-direction: row;
-    gap: 5px;
-    list-style: none;
-    text-align: center;
-    font-size: 20px;
-  }
+.menu-nav {
+   flex-direction: row;
+  gap: 5px;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 45vh;
 
-  .menu-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    transition: 0.3s;
-  }
+}
 
-  .about {
-    color: rgb(108, 117, 125);
-    font-size: 42px;
-    padding-left: 100px;
-    padding-top: 400px;
-    margin-left: 100px;
-    font-family: "Saira Extra Condensed", sans-serif;
-    text-align: left;
-  }
+.about {
+  color: rgb(108, 117, 125);
+  font-size: 28px;
+  padding-left: 100px;
+  padding-top: 380px;
+  margin-left: -13%;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
 
-  .sub-about {
-    padding-top: 2px;
-    font-size: 26px;
-    max-width: 600px;
-  }
+.sub-about {
+  padding-top: 2px;
+  font-size: 16px;
+  max-width: 600px;
+}
 
-  #parag {
-    margin-top: 20px;
-  }
+.cursos {
+  font-size: 18px;
+  max-width: 600px;
+  padding: 15px;
+}
 
-  .cursos {
-    font-size: 26px;
-    max-width: 700px;
-    padding: 15px;
-  }
+.educa {
+  margin: 14px;
+}
 
-  .educa {
-    margin: 8px;
-  }
+.periodo {
+  font-size: 20px;
+}
 
-  .periodo {
-    font-size: 20px;
-  }
 
-  hr {
-    margin-top: 450px;
-  }
 
-  .portfolio .cursos a {
-    color: rgb(52, 145, 226);
-    text-decoration: none;
-    transition: 0.3s;
-  }
+.quad {
+  width: 300px;
+  height: 300px;
+  margin-right: 8%;
+  margin-top: 20%;
+  border: 3px rgb(146, 146, 146) solid;
+}
 
-  #contact {
-    padding-top: 120px;
-  }
+ 
 
-  .quad {
-    width: 450px;
-    height: 450px;
-    border: 3px rgb(146, 146, 146) solid;
-  }
+#nome {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border: 3px rgb(144, 144, 144) solid;
+}
 
-  #form {
-    text-align: center;
-    border: 3px rgb(144, 144, 144) outset;
-  }
+textarea {
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: 0px;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+   font-size: 13px;
+  resize: vertical;
+}
 
-  #nome {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;
-    border: 3px rgb(144, 144, 144) solid;
-  }
-
-  tr {
-    font-size: 20px;
-  }
-
-  td {
-    padding-top: 15px;
-    padding-left: 15px;
-  }
-
-  textarea {
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical;
-  }
 
   #sub-contact {
-    padding-top: 120px;
-    margin-left: 200px;
+     padding-top: 50px;
+    margin-left: 50px;
   }
 
   #git {
-    width: 100px;
+      width: 60px;
   }
 
   #linke {
-    width: 100px;
+    margin-top: -200px;
+    margin-left: 80px;
+
+     width: 60px;
   }
 }
