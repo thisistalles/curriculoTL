@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
+/* mudar a animação de rolagem */
 html {
   scroll-behavior: smooth;
 }
 
+/* fazendo o menu */
 .menu {
   display: flex;
   flex-direction: column;
@@ -20,6 +22,7 @@ html {
   padding-top: 18%;
 }
 
+/* colocando a imagem do perfil */
 img {
   border-radius: 50%;
   width: 200px;
@@ -27,6 +30,7 @@ img {
   margin-top: -140px;
 }
 
+/* fazendo os nomes dos links do menu */
 .menu-nav {
   display: flex;
   flex-direction: column;
@@ -36,12 +40,14 @@ img {
   font-size: 30px;
 }
 
+/* mudando as propriedades dos links do menu */
 .menu-nav a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: 0.3s;
 }
 
+/* fazendo o topico sobre mim */
 .about {
   color: rgb(108, 117, 125);
   font-size: 42px;
@@ -55,6 +61,7 @@ img {
   margin-left: -6px;
 }
 
+/* alternando o texto do topico sobre mim */
 .sub-about {
   padding-top: 2px;
   font-size: 26px;
@@ -65,6 +72,7 @@ img {
   margin-top: 20px;
 }
 
+/* fazendo o topico portfolio */
 .cursos {
   font-size: 26px;
   max-width: 700px;
@@ -75,35 +83,42 @@ img {
   margin: 8px;
 }
 
+/* tamanho da fonte do período */
 .periodo {
   font-size: 20px;
 }
 
+/* linha para separar os topicos */
 hr {
   margin-top: 450px;
 }
 
+/* mudando o estilo do link do portfolio */
 .portfolio .cursos a {
   color: rgb(52, 145, 226);
   text-decoration: none;
   transition: 0.3s;
 }
 
+/* separando a seção de contato */
 #contact {
   padding-top: 320px;
 }
 
+/* criando o quadrado da seção */
 .quad {
   width: 450px;
   height: 450px;
   border: 3px rgb(146, 146, 146) solid;
 }
 
+/* caixa do formulário */
 #form {
   text-align: center;
   border: 3px rgb(144, 144, 144) outset;
 }
 
+/* caixa do   nome */
 #nome {
   font-size: 20px;
   text-align: center;
@@ -111,15 +126,18 @@ hr {
   border: 3px rgb(144, 144, 144) solid;
 }
 
+/* estilo da linha da tabela */
 tr {
   font-size: 20px;
 }
 
+/* espaço interno das células */
 td {
   padding-top: 15px;
   padding-left: 15px;
 }
 
+/* caixa de texto (mensagem) */
 textarea {
   margin-top: 10px;
   margin-left: 0px;
@@ -131,45 +149,52 @@ textarea {
   resize: vertical;
 }
 
+/* título contato abaixo */
 #sub-contact {
   padding-top: 150px;
   margin-left: 320px;
 }
 
+/* tamanho do ícone github */
 #git {
   width: 150px;
 }
 
+/* tamanho do ícone linkedin */
 #linke {
   width: 150px;
 }
 
-/* Celular */
+/* =================== RESPONSIVO CELULAR =================== */
+
 @media screen and (max-width: 828px) {
+  /* ajustes gerais no celular */
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
+  /* mudar a animação de rolagem */
   html {
     scroll-behavior: smooth;
   }
 
+  /* menu fixo no topo no celular */
   .menu {
     display: flex;
-
     position: fixed;
     top: 0;
     left: 0;
-    width: 130vw; 
+    width: 130vw;
     height: auto;
     background-color: rgb(0, 255, 157);
-    padding: 20px ;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
   }
 
+  /* imagem menor no celular */
   img {
     border-radius: 50%;
     width: 150px;
@@ -177,6 +202,7 @@ textarea {
     margin-right: 120px;
   }
 
+  /* menu horizontal no celular */
   .menu-nav {
     display: flex;
     flex-direction: row;
@@ -189,6 +215,7 @@ textarea {
     margin-right: 110px;
   }
 
+  /* título sobre mim no centro */
   .about {
     color: rgb(108, 117, 125);
     font-size: 30px;
@@ -199,6 +226,7 @@ textarea {
     font-family: "Saira Extra Condensed", sans-serif;
   }
 
+  /* subtítulo sobre mim menor */
   .sub-about {
     padding-top: 10px;
     font-size: 18px;
@@ -207,6 +235,7 @@ textarea {
     text-align: center;
   }
 
+  /* cursos adaptados pro celular */
   .cursos {
     font-size: 18px;
     max-width: 90%;
@@ -218,10 +247,12 @@ textarea {
     margin: 14px;
   }
 
+  /* fonte do período igual */
   .periodo {
     font-size: 20px;
   }
 
+  /* quadrado menor no celular */
   .quad {
     width: 300px;
     height: 300px;
@@ -229,6 +260,7 @@ textarea {
     border: 3px rgb(146, 146, 146) solid;
   }
 
+  /* input do nome igual */
   #nome {
     font-size: 20px;
     text-align: center;
@@ -236,6 +268,7 @@ textarea {
     border: 3px rgb(144, 144, 144) solid;
   }
 
+  /* textarea menor no celular */
   textarea {
     margin-top: 10px;
     width: 90%;
@@ -245,17 +278,20 @@ textarea {
     resize: vertical;
   }
 
+  /* texto contato abaixo no centro */
   #sub-contact {
     padding-top: 50px;
     margin-left: 20px;
   }
 
+  /* tamanho dos ícones reduzido */
   #git,
   #linke {
     width: 60px;
     margin: 10px;
   }
 
+  /* alinhamento do linkedin */
   #linke {
     margin-top: 0;
     margin-left: 0;
