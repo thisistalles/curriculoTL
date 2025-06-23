@@ -174,7 +174,7 @@ textarea {
     border-radius: 50%;
     width: 150px;
     margin: 20px;
-    margin-right: 110px;
+    margin-right: 120px;
   }
 
   .menu-nav {
@@ -191,7 +191,7 @@ textarea {
 
   .about {
     color: rgb(108, 117, 125);
-    font-size: 28px;
+    font-size: 30px;
     padding: 20px;
     padding-top: 300px;
     margin: auto;
@@ -201,7 +201,7 @@ textarea {
 
   .sub-about {
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
     max-width: 90%;
     margin: auto;
     text-align: center;
